@@ -19,3 +19,11 @@ tolerations:
   effect: NoSchedule
 ```
 
+### Setup papertrail cli
+
+```
+sudo apt-get install ruby
+sudo gem install papertrail
+export PAPERTRAIL_API_TOKEN='asdfasdfasdfasdf'
+papertrail
+```
